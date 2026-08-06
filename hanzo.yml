@@ -1,0 +1,4 @@
+# passport — the library's own mocha suite (545 cases) is the gate.
+test:
+  - name: mocha
+    run: npm i --no-audit --no-fund && npm test
